@@ -2,9 +2,10 @@ sudo: false
 language: node_js
 node_js:
   - "11"
+cache: yarn
 script:
   - yarn test
-  - yarn run build
+  - yarn build
 branches:
   only:
   - master
