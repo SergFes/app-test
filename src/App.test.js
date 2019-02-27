@@ -11,5 +11,5 @@ it('renders without crashing', () => {
 });
 
 it('function sum', () => {
-    expect(sum(2,3)).toEqual(2)
+    expect(sum(2,3)).toEqual(5)
 });
